@@ -1,7 +1,3 @@
-// State로 사용자 입력 관리하기
-
-// 굉장히 깔끔해짐!!!!! 하나로 만들어서.
-
 import { useState } from "react";
 // 간단한 회원가입 폼
 // 1. 이름
@@ -22,7 +18,7 @@ const Register = () => {
   const onChange = (e) => {
     setInput({
       ...input,
-      [e.target.name]: e.target.value, // 새로운 객체를 만들면서, 프로퍼티 키 자리에다가 대괄호로 변수 이름을 쓰면 (e.target.name) 프로퍼티의 키값으로 정할 수 있음.
+      [e.target.name]: e.target.value, // 새로운 객체를 만들면서, 프로퍼티 키 자리에다가 대괄호로 변수 이름을 쓰면 (e.target.name) 프로퍼티의 키값으로 정할 수 있음.  
     });
   };
 
@@ -61,3 +57,4 @@ const Register = () => {
 };
 
 export default Register;
+

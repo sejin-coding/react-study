@@ -36,5 +36,18 @@ export default Main;
 
 // 카멜 케이스 backgroundColor처럼 뒤에를 대문자로 하는 것.
 
-// 1. Css 적용하는 방법 두가지. 컴포넌트 안에 style={{}} 넣기 
-// 2. 
+// 1. Css 적용하는 방법 두가지. 컴포넌트 안에 style={{}} 넣기
+<div
+  style={{
+    backgroundColor: "red",
+    borderBottom: "5px solid blue",
+  }}
+></div>;
+
+// 2. 따로 만들기
+// .logout {
+//   background-color: red;
+//   border-bottom: 5px solid green;
+// }
+
+// return <div className="logout">로그아웃</div>;
