@@ -1,0 +1,21 @@
+body {
+  padding: 20px;
+}
+
+.App {
+  margin: 0 auto;
+  /* 화면의 여백을 자동으로 가운데에 오도록 설정 */
+  width: 400px;
+}
+.App > section {
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(240, 240, 240);
+  /* solid는 직선이라는 뜻.  */
+  border-radius: 5px;
+  /* 모서리를 둥글게 */
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+
+
