@@ -1,12 +1,13 @@
 import "./App.css";
 import Register from "./components/Register";
+import HookExam from "./components/HookExam";
 
 function App() {
   // 앱 컴포넌트 (부모)
 
   return (
     <>
-      <Register />
+      <HookExam />
     </>
   );
 } // App Component라고 부름
