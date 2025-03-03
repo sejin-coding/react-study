@@ -1,3 +1,6 @@
+//  * 즉 이번 시간에는 useReducer를 이용해서 업그레이드를 해봄
+// * 훨씬 더 깔꿈쓰~!
+
 import { useState, useRef, useReducer } from "react";
 import "./App.css";
 import Header from "./components/Header";
